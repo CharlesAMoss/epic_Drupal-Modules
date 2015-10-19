@@ -1,0 +1,5 @@
+name = Groceries
+description = I'm going to eat this stuff.
+package = Examples
+core = 7.x
+files[] = groceries.module

@@ -1,0 +1,5 @@
+name = Pet
+description = Pet details like a son of a gun.
+package = Examples
+core = 7.x
+files[] = pet.module

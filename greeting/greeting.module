@@ -1,0 +1,26 @@
+<?php
+
+function greeting_menu() {
+    $items = array();
+    $items['hello_friend'] = array(
+        'title' => "Hello Friend!",
+        'page callback' => 'say_hello',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['farewell'] = array(
+       'title' => 'Farewell Friend!',
+       'page callback' => 'say_farewell',
+       'access callback' => TRUE,
+       'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function say_hello() {
+    return '<p style="font-size:3em;color:red;">Hello my Dr Friedchicken!</p>';
+}
+
+function say_farewell() {
+    return '<p style="font-size:3em;color:green;">Fare thee well Dr Friedchicken!</p>';
+}

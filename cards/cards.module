@@ -1,0 +1,45 @@
+<?php
+
+function cards_menu() {
+    $items = array();
+    $items['card/lim'] = array(
+        'title' => "Lim",
+        'page callback' => 'lim_card',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['card/brooks'] = array(
+        'title' => "Brooks",
+        'page callback' => 'brooks_card',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['card/sonny'] = array(
+        'title' => "Sonny",
+        'page callback' => 'sonny_card',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function lim_card()
+{
+    return '
+      <h1>Hello Lim!</h1>
+    ';
+}
+
+function brooks_card()
+{
+    return '
+      <h1>Hello Brooks!</h1>
+    ';
+}
+
+function sonny_card()
+{
+    return '
+      <h1>Hello Sonny!</h1>
+    ';
+}

@@ -1,0 +1,21 @@
+<?php
+function specials_menu() {
+    $items = array();
+    $items['specials'] = array(
+        'title' => "The Dr's Specials",
+        'page callback' => 'specials_display',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+        );
+    return $items;
+}
+
+function specials_display() {
+    return '
+    <ul>
+        <li>Chai pumpkin everything</li>
+        <li>Chocolate bacon everything</li>
+        <li>Salted caramel everything</li>
+    </ul>
+    ';
+}

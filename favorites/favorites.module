@@ -1,0 +1,54 @@
+<?php
+
+function favorites_menu() {
+    $items = array();
+    $items['movies'] = array(
+        'title' => "Movies",
+        'page callback' => 'movie_list',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['books'] = array(
+        'title' => "Books",
+        'page callback' => 'book_list',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['songs'] = array(
+        'title' => "Songs",
+        'page callback' => 'song_list',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function movie_list() {
+  return '
+  <ul>
+      <li>WALL-E</li>
+      <li>The Grand Budapest Hotel</li>
+      <li>The Empire Strikes Back</li>
+  </ul>
+  ';
+}
+
+function book_list() {
+  return '
+  <ul>
+      <li>Dune</li>
+      <li>Neuromancer</li>
+      <li>Snow Crash</li>
+  </ul>
+  ';
+}
+
+function song_list() {
+  return '
+  <ul>
+      <li><a href="https://youtu.be/hy3W-3HPMWg">A Rainbow in Curved Air</a></li>
+      <li><a href="https://youtu.be/5dauRYb9il8">Super Castlevania IV- Simon Belmont\'s Theme</a></li>
+      <li><a href="https://youtu.be/HTGiT6-Oahc">Backwoods Song</a></li>
+  </ul>
+  ';
+}

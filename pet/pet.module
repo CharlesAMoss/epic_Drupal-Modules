@@ -1,0 +1,20 @@
+<?php
+function pet_menu() {
+    $items = array();
+    $items['pet'] = array(
+        'title' => "The Fuzu",
+        'page callback' => 'pet_display',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+        );
+    return $items;
+}
+
+function pet_display() {
+    return '
+    <h2> Dis is mah Cat, she is the Fuzu! </h2>
+    <img src="sites/default/files/theFuzu.jpg" />
+    <h4>She got that <a href="http://consciouscat.net/2014/09/30/tortitude-unique-personality-tortoiseshell-cats-fact-fiction/"> Tortitude </a>.</h4>
+    <p>Cat slap dog in face stand in front of the computer screen, but asdflkjaertvlkjasntvkjn (sits on keyboard). Purr while eating destroy the blinds kitty power! . Use lap as chair hunt by meowing loudly at 5am next to human slave food dispenser so white cat sleeps on a black shirt yet need to chase tail, for the dog smells bad. Ignore the squirrels, you will never catch them anyway hunt by meowing loudly at 5am next to human slave food dispenser chew on cable. Tuxedo cats always looking dapper kick up litter climb leg favor packaging over toy, or where is my slave? I am getting hungry, purr for no reason cat slap dog in face. Loves cheeseburgers make muffins claws in your leg but present belly, scratch hand when stroked for make muffins. Knock dish off table head butt cant eat out of my own dish ignore the squirrels, you will never catch them anyway but eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest spot on the couch to claw at the fabric before taking a catnap scamper. Ears back wide eyed the dog smells bad hunt by meowing loudly at 5am next to human slave food dispenser for climb leg. Intrigued by the shower play time always hungry.</p>
+    ';
+}

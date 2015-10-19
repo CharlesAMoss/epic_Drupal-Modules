@@ -1,0 +1,5 @@
+name = Cards
+description = Greeting cards for all your friends.
+package = Examples
+core = 7.x
+files[] = cards.module
