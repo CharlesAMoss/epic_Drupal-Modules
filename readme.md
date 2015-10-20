@@ -3,14 +3,18 @@
 ### By [Charles Moss](https://twitter.com/CharlesMoss)
 ## Description
 
-All of these create a menu link to the following content: 
+All of these create a menu link to the following content:
 
 * cards : creates 3 personalized e-card for a 3 friends.
 * favorites : creates 3 list of favorite things.
 * greeting : creates a greeting and farewell statements.
 * groceries : creates a shopping list based on an array and out puts a table with a total.
 * pet : creates a profile page for my cat.
-* specials : out puts a list of "today's specials"
+* specials : out puts a list of "today's specials".
+* hello_user : displays a success screen when a new user is created.
+* comment_buddy : displays a message when user interacts with comments.
+* user_greeting : displays a different greeting based on user role.
+
 
 
 _Users can add these modules to their Drupal site. I created these to practice the syntax_
