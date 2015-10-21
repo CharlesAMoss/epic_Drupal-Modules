@@ -1,0 +1,5 @@
+name = Hello World
+description = H.as E.verybody L.ived L.ife O.nline?
+package = Examples
+core = 7.x
+files[] = tests/helloworld.test

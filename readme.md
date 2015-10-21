@@ -14,7 +14,9 @@ All of these create a menu link to the following content:
 * hello_user : displays a success screen when a new user is created.
 * comment_buddy : displays a message when user interacts with comments.
 * user_greeting : displays a different greeting based on user role.
-
+* sum : add two numbers makes use of forms
+* ping-pong : replaces numbers divisible by 3 and 5 with the words "ping" and "pong" also uses forms.
+* hello world : prints the message "hello worlds" and has a basic function test. (drupal test example)
 
 
 _Users can add these modules to their Drupal site. I created these to practice the syntax_
