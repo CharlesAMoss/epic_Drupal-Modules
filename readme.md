@@ -5,7 +5,7 @@
 
 All of these create a menu link to the following content:
 
-* cards : creates 3 personalized e-card for a 3 friends.
+* cards : creates 3 personalized e-card for 3 friends.
 * favorites : creates 3 list of favorite things.
 * greeting : creates a greeting and farewell statements.
 * groceries : creates a shopping list based on an array and out puts a table with a total.
